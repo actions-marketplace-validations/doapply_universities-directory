@@ -1,0 +1,37 @@
+{
+  "name": "universities-directory",
+  "version": "1.0.0",
+  "description": "This fun and useful GitHub Actions plugin lets you search for colleges and universities in a country. Thank you Hipolabs for providing free API endpoint: `http://universities.hipolabs.com/search?country=`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "doapply",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@actions/http-client": "^2.1.0",
+    "@octokit/auth-token": "^3.0.3",
+    "@octokit/core": "^4.2.0",
+    "@octokit/endpoint": "^7.0.5",
+    "@octokit/graphql": "^5.0.5",
+    "@octokit/openapi-types": "^16.0.0",
+    "@octokit/plugin-paginate-rest": "^2.17.0",
+    "@octokit/plugin-rest-endpoint-methods": "^5.1.1",
+    "@octokit/request": "^6.2.3",
+    "@octokit/request-error": "^3.0.3",
+    "@octokit/types": "^9.0.0",
+    "before-after-hook": "^3.0.2",
+    "deprecation": "^2.3.1",
+    "is-plain-object": "^5.0.0",
+    "node-fetch": "^3.3.0",
+    "sort-json-array": "^0.1.7",
+    "tr46": "^4.1.1",
+    "tunnel": "^0.0.6",
+    "universal-user-agent": "^7.0.1",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^12.0.1",
+    "wrappy": "^1.0.2"
+  }
+}
